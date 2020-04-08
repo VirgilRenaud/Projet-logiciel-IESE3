@@ -1,0 +1,25 @@
+**********************************************************
+* Procédure en 2 clics de souris pour 
+* l'ajout de composants et de modèles  
+* pour le logiciel de Simulation spice LTspiceIV
+**********************************************************
+* Copyright © Stephane.POUJOULY 2020.  All rights reserved.
+* Version 3.2 -- 16 mars 2020
+* Librairie pour LT Spice IV & LTSpice XVII
+* Source : http://www.poujouly.net
+
+
+=> Copier le fichiers SP.lib (descriptions des composants) dans le répertoire :
+C:\Utilisateurs\Votre nom (ex POUJOULY)\Documents\LTSpiceXVII\lib\sub
+ou à partir de l'explorateur Windows
+Ce PC > Documents > LTSpiceXVII > lib > sub
+
+=> Copier le répertoire SP_symb complet sous le répertoire :
+C:\Utilisateurs\Votre nom (ex POUJOULY)\Documents\LTSpiceXVII\lib\sym
+ou à partir de l'explorateur Windows
+Ce PC > Documents > LTSpiceXVII > lib > sym
+
+!!!! Important  !!!
+Pour utiliser les composants sur une feuille de travail ne pas oublier
+la directive spice : .inc SP.lib
+
